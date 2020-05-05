@@ -1,10 +1,6 @@
 # Math teacher Web app
 ## landing page
 This web-site is a landing page for a math teacher.
-## Features
-Releases can be taken from:
-- Spotify
-- Deezer
 
 This site allows to add a paypal button to collect money for lessons.
 

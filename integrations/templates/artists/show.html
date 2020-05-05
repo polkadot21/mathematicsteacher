@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+	<title>{{ artist.name }} | MuN</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'releases/style.css' %}">
+{% endblock %}
+
+{% block content %}
+	<h1 class="page-title">{{ artist.name }}'s releases</h1>
+	<main class="releases">
+		{% include "releases/index.html" with releases=releases no_releases_text="Releases will be here soon..." %}
+	</main>
+{% endblock %}

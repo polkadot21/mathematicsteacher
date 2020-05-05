@@ -1,0 +1,21 @@
+{% if releases|length > 0 %}
+    {% for release in releases %}
+        <article class="release">
+            <span class="release-date">{{ release.date }}</span>
+            <img src="{{ release.cover_url }}" alt="{{ release.title }} cover" class="release-cover">
+            <span class="release-title">
+                <a href="/artists/{{ release.artist.name | lower }}" class="release-artist-link">{{ release.artist.name }}</a> - {{ release.title }}
+            </span>
+            {% if release.explicit %}
+                <span class="release-explicit">
+                    explicit
+                </span>
+            {% endif %}
+            <a href="{{ release.integration_url }}" target="_blank" class="integration-url">
+                <i class="fas fa-external-link-alt"></i>
+            </a>
+        </article>
+    {% endfor %}
+{% else %}
+    {{ no_releases_text }}
+{% endif %}

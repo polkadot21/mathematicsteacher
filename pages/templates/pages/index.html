@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <title>Natalia Saurova Math Teacher</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/style.css' %}">
+{% endblock %}
+
+{% block content %}
+    <header class="header">
+        {% if user.is_authenticated %}
+            <a href="/settings" class="header-link">Settings</a>
+            <a href="/latest" class="header-link">Latest releases</a>
+            <a href="{% url 'logout' %}" class="header-link">Log out</a>
+        {% else %}
+            <div class="header-text">Социальные сети:</div>
+            <a href="https://www.instagram.com/nataliasaurova/" "Instagram" %}" class="header-link">Instagram</a>
+        {% endif %}
+    </header>
+
+    <section class="landing-section landing-main">
+        <div class="landing-section-content">
+            <h1 class="brand">Наталья Саурова</h1>
+
+          
+            <h2>
+            <span class="brand-text">Учи</span>тель
+            <span class="brand-text">Ма</span>тематики
+            <span class="brand-text">для</span>
+            детей
+            </h2><p class="landing-main-text"> "Инженер-физик" НИУ МИЭТ, магистр педагогических наук </p>
+
+            <a href="https://ibb.co/dpvNXS5"><img src="https://i.ibb.co/t260nSJ/m.png" alt="Natalia Saurov" border="0"></a>
+
+              <p class="landing-main-text">
+                Повышение успеваемости по математике в школе
+                <br>
+                Подготовка к сдаче ОГЭ и ЕГЭ
+                <br>
+                Подготовка к ДВИ и олимпиадам по математике
+            </p> 
+        </div>
+    </section>
+
+    <section class="landing-section langing-features">
+        <section class="landing-feature feature-music-services">
+            <h2>Записывайтесь на занятия в <span class="brand-text">календаре</span></h2>
+   
+          <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/nataliasaurova" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+
+          
+
+        <section class="landing-feature feature-notifications">
+            <h2><span class="brand-text">Оплатите</span>
+            занятие с помощью
+            <br>
+            банковской карты или PayPal</h2>
+            
+
+<ul>
+<section>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9C58AHG6FU4QU">
+<table>
+<tr><td><input type="hidden" name="on0" value="Длительность урока">Длительность урока</td></tr><tr><td><select name="os0">
+	<option value="60 минут">60 минут 600,00 RUB</option>
+	<option value="90 минут">90 минут 900,00 RUB</option>
+	<option value="120 минут">120 минут 1 200,00 RUB</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="RUB">
+<input type="image" src="https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal — более безопасный и легкий способ оплаты через Интернет!">
+<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+</section>
+</ul>
+
+<h2>получите уведомление о <span class="brand-text">назначенном</span> уроке
+  <br> 
+  на электронную почту.
+</h2>
+
+
+        </section>
+    </section>
+{% endblock %}

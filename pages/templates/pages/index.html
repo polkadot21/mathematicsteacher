@@ -8,27 +8,22 @@
 
 {% block content %}
     <header class="header">
-        {% if user.is_authenticated %}
-            <a href="/settings" class="header-link">Settings</a>
-            <a href="/latest" class="header-link">Latest releases</a>
-            <a href="{% url 'logout' %}" class="header-link">Log out</a>
-        {% else %}
             <div class="header-text">Социальные сети:</div>
-            <a href="https://www.instagram.com/nataliasaurova/" "Instagram" %}" class="header-link">Instagram</a>
-        {% endif %}
+            <a href="https://www.instagram.com/nataliasaurova/"><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png"/></a>
+
+       
     </header>
 
     <section class="landing-section landing-main">
         <div class="landing-section-content">
-            <h1 class="brand">Наталья Саурова</h1>
+            <h1 class="brand">Наталья Саурова </h1><br>
 
-          
-            <h2>
-            <span class="brand-text">Учи</span>тель
+            <h2><span class="brand-text">Учи</span>тель
             <span class="brand-text">Ма</span>тематики
             <span class="brand-text">для</span>
             детей
-            </h2><p class="landing-main-text"> "Инженер-физик" НИУ МИЭТ, магистр педагогических наук </p>
+            </h2>
+              <p class="landing-main-text"> "Инженер-физик" НИУ МИЭТ, магистр педагогических наук </p>
 
             <a href="https://ibb.co/dpvNXS5"><img src="https://i.ibb.co/t260nSJ/m.png" alt="Natalia Saurov" border="0"></a>
 
@@ -44,7 +39,7 @@
 
     <section class="landing-section langing-features">
         <section class="landing-feature feature-music-services">
-            <h2>Записывайтесь на занятия в <span class="brand-text">календаре</span></h2>
+            <h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">Выберите подходящую длительность <span class="brand-text">урока</span> (60, 90 или 120 мин)</p></h2>
    
           <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/nataliasaurova" style="min-width:320px;height:630px;"></div>
@@ -54,14 +49,14 @@
           
 
         <section class="landing-feature feature-notifications">
-            <h2><span class="brand-text">Оплатите</span>
-            занятие с помощью
-            <br>
-            банковской карты или PayPal</h2>
+            <h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">Для брони <span class="brand-text">урока</span>
+            необходимо произвести оплату с помощью банковской карты или PayPal
+            </p></h2>
             
 
 <ul>
 <section>
+<center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="9C58AHG6FU4QU">
@@ -74,17 +69,18 @@
 </table>
 <input type="hidden" name="currency_code" value="RUB">
 <input type="image" src="https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal — более безопасный и легкий способ оплаты через Интернет!">
-<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
+<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="3" height="3">
 </form>
-
+</center>
 
 
 </section>
 </ul>
 
-<h2>оставьте <span class="brand-text">отызв</span>об уроке
+<h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">За 12 часов до начала урока вам придет <span class="brand-text">напоминание</span> на почту</p></h2>
 
-</h2>
+<h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">После урока, пожалуйста, оставьте <span class="brand-text">отзыв</span> внизу
+            об уроке</p></h2>
 
 <div class="powr-reviews" id="715c7ad6_1588689573"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
 

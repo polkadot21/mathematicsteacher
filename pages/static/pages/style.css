@@ -14,11 +14,14 @@ section {
 h1 {
   font-size: 3.5rem;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 h2 {
   font-size: 2rem;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 0
+
 }
 
 p {
@@ -29,6 +32,8 @@ li {
   font-size: 1.2rem;
 }
 
+
+
 .header {
   width: 100vw;
   display: flex;
@@ -36,7 +41,7 @@ li {
   top: 0;
   left: 0;
   position: absolute;
-
+ 
   background: rgba(0,0,0,0.5);
 }
 
@@ -73,6 +78,8 @@ li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+ 
+
 }
 
 .landing-section-content {
@@ -99,6 +106,7 @@ li {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
   justify-content: center;
+  
  
 }
 
@@ -113,4 +121,7 @@ li {
   margin: 2rem;
   min-width: 300px;
   justify-content: center;
+}
+
+
 }

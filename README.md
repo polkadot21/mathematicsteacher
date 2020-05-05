@@ -1,14 +1,12 @@
-# MuN
-## MUsic Notifier
-MUsic Notifier is an application that sends you notifications about new releases from your favorite artists.
+# Math teacher Web app
+## landing page
+This web-site is a landing page for a math teacher.
 ## Features
 Releases can be taken from:
 - Spotify
 - Deezer
 
-Notifications can be sent via:
-- Email
-- Telegram
+This site allows to add a paypal button to collect money for lessons.
 
 ## Launching the development environment
 You need to have Python and PostgreSQL installed

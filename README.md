@@ -7,7 +7,7 @@ This site allows to add a paypal button to collect money for lessons.
 ## Launching the development environment
 You need to have Python and PostgreSQL installed
 ``` bash
-git clone https://github.com/hmlON/mun.git
+git clone https://github.com/polkadot21/mathematicsteacher.git
 cd mun
 
 pip install -r requirements.txt

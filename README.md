@@ -8,13 +8,13 @@ This site allows to add a paypal button to collect money for lessons.
 You need to have Python and PostgreSQL installed
 ``` bash
 git clone https://github.com/polkadot21/mathematicsteacher.git
-cd mun
+cd mathematicsteacher
 
 pip install -r requirements.txt
 
 createuser -s postgres
-createuser -s mun
-createdb -U postgres mun
+createuser -s mathematicsteacher
+createdb -U postgres mathematicsteacher
 
 python manage.py runserver
 ```

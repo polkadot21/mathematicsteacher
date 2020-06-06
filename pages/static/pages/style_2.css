@@ -8,7 +8,7 @@ body {
 
 section {
   padding: 0;
-  margin: 0;
+  margin: 100;
 }
 
 h1 {
@@ -20,7 +20,16 @@ h1 {
 h2 {
   font-size: 2rem;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  margin: 0
+  margin: 0;
+
+}
+
+h3 {
+  font-size: 2rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 0;
+  text-align:right;
+  float:right;
 
 }
 
@@ -41,8 +50,12 @@ li {
   top: 0;
   left: 0;
   position: absolute;
+  align-text:center;
+
  
-  background: rgba(0,0,0,0.5);
+  background: white url("images/math.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
 }
 
 .header-link {
@@ -58,6 +71,7 @@ li {
   margin: 1rem;
   font-size: 1.2rem;
   color: #ddd;
+  align: center;
 }
 
 .brand {
@@ -71,24 +85,24 @@ li {
 }
 
 .landing-section {
-  min-height: 100vh;
-  width: 100vw;
+  min-height: 10vh;
+  width: 10vw;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   flex-direction: column;
- 
+
 
 }
 
 .landing-section-content {
   padding: 2rem 0;
-  background: rgba(0,0,0,0.5);
-  width: 100vw;
+  background: rgba(0,5,10,0.2);
+  width: 10vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   flex-direction: column;
   color: #ddd;
 }
@@ -104,8 +118,8 @@ li {
   font-size: 1.2rem;
   flex-wrap: wrap;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
   
  
 }
@@ -114,14 +128,16 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .landing-feature {
   margin: 2rem;
-  min-width: 300px;
-  justify-content: center;
+  min-width: 30px;
+  justify-content: left;
 }
+
+
 
 
 }

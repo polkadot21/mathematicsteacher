@@ -25,7 +25,7 @@ def releases(request):
     releases = Release.objects.filter(artist__integration_id=integration.id).order_by('-date', '-created_at')[after:to]
 
     context = {'user': request.user, 'releases': releases}
-    return render(request, 'releases/index.html', context)
+    return render(request, 'releases/index_old.html', context)
 
 @login_required
 def artist(request, name):
@@ -65,7 +65,7 @@ def settings(request):
         'email_notification_form': email_notification_form,
         'telegram_notification_form': telegram_notification_form,
     }
-    return render(request, 'settings/index.html', context)
+    return render(request, 'settings/index_old.html', context)
 
 @staff_member_required
 def admin_dashboard(request):

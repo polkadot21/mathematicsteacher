@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block head %}
+    <title>Репетитор Наталья Саурова</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/style.css' %}">
+{% endblock %}
+
+{% block content %}
+
+
+    <header class="header">
+        <img src="https://img.icons8.com/bubbles/50/000000/contacts.png"/ width = '50' height = '50'>
+        <div class="header-text">Контакты для связи:</div>
+         <div class="header-text">8-910-462-59-25</div>
+         <div class="header-text">nataliasaurova@gmail.com</div>
+            <div class="header-text">Социальные сети:</div>
+
+            <a href="https://www.instagram.com/nataliasaurova/"><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png" alter='репетитор по математике'/></a>
+
+
+    </header>
+<section class="landing-section landing-main">
+    <a href='https://postimg.cc/Mvj06FKf' target='_blank'>
+    <img src='https://i.postimg.cc/2800xssG/m-smooth.png' border='0' alt='репетитор по математике' width = '300' height = '300' align = 'left'/></a>
+</section>
+<section class="landing-section landing-main">
+        <div class="landing-section-content">
+
+
+
+<br>
+<br>
+ <h1 class="brand">Наталья Саурова </h1>
+
+            <h2><span class="brand-text">Учи</span>тель
+            <span class="brand-text">Ма</span>тематики
+            <span class="brand-text">для</span>
+            детей</h2>
+
+             <p class="landing-main-text"> Я занимаюсь онлайн-преподаванием математики для школьников 1-11 классов. <br>
+                 Основные задачи, которые мы решаем на занятиях: <br> <br>
+                1. Повышение успеваемости по математике в школе <br>
+
+                2. Подготовка к сдаче ОГЭ и ЕГЭ
+                <br>
+                3. Подготовка к ДВИ и олимпиадам по математике <br> <br>
+                 Для записи на онлайн-урок просто просто пролистай страницу ниже.
+            </p>
+
+        </div>
+    </section>
+
+
+
+    <section class="landing-section langing-features">
+
+        <section class="landing-feature feature-music-services">
+
+ <h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">Как <span class="brand-text">зап</span>исаться на урок?</p></h2>
+
+            <h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">1. Выберите подходящую длительность <span class="brand-text">урока</span> (60, 90 или 120 мин)</p></h2>
+
+<h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">2. Выберите подходящую <span class="brand-text">дату и время</span> урока</p></h2>
+
+<h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">3. Укажите ваше <span class="brand-text">имя</span>, электронную почту и номер телефона (если хотите получить напоминание накануне)</p></h2>
+   
+          <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/nataliasaurova" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+
+          
+
+        <section class="landing-feature feature-notifications">
+            <h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">4.Произ<span class="brand-text">вед</span>ите
+             оплату с помощью банковской карты или PayPal
+            </p></h2>
+            
+
+<ul>
+<section>
+<center>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9C58AHG6FU4QU">
+<table>
+<tr><td><input type="hidden" name="on0" value="Длительность урока">Длительность урока</td></tr><tr><td><select name="os0">
+	<option value="60 минут">60 минут 600,00 RUB</option>
+	<option value="90 минут">90 минут 900,00 RUB</option>
+	<option value="120 минут">120 минут 1 200,00 RUB</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="RUB">
+<input type="image" src="https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal — более безопасный и легкий способ оплаты через Интернет!">
+<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="3" height="3">
+</form>
+</center>
+
+
+</section>
+</ul>
+
+<h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">5. Теперь вы записаны! За 12 часов до начала урока вам придет <span class="brand-text">напоминание</span> на эл. почту или СМС</p></h2>
+
+<h2><p style="border:3px; border-style:solid; border-color:#c55e00; padding: 1em;">6. Я буду рада, если вы поделитесь вашими <span class="brand-text">впечатлениями</span> об уроке в форме внизу страницы!
+            </p></h2>
+
+<div class="powr-reviews" id="715c7ad6_1588689573"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+
+
+        </section>
+    </section>
+{% endblock %}

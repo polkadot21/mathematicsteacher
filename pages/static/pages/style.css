@@ -1,0 +1,143 @@
+body {
+  color: #ddd;
+  background: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 0;
+  margin: 100;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+h2 {
+  font-size: 2rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 0;
+
+}
+
+h3 {
+  font-size: 2rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 0;
+  text-align:right;
+  float:right;
+
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+
+
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  position: absolute;
+  align-text:center;
+
+ 
+  background: white url("images/math.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+}
+
+.header-link {
+  margin: 1rem;
+  border-bottom: 3px solid #c55e00;
+  font-size: 1.2rem;
+  color: #222;
+  text-decoration: none;
+  color: #ddd;
+}
+
+.header-text {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: #ddd;
+  align: center;
+}
+
+.brand {
+  margin: 0;
+  color: #c55e00;
+}
+
+.brand-text {
+  color: #c55e00;
+ 
+}
+
+.landing-section {
+  min-height: 10vh;
+  width: 10vw;
+
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+
+
+}
+
+.landing-section-content {
+  padding: 2rem 0;
+  background: rgba(0,5,10,0.2);
+  width: 10vw;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  color: #ddd;
+}
+
+.landing-main {
+  background: white url("images/math.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+}
+
+.landing-main-text {
+  
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: left;
+  justify-content: left;
+  
+ 
+}
+
+.langing-features {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.landing-feature {
+  margin: 2rem;
+  min-width: 30px;
+  justify-content: left;
+}
+
+
+
+
+}
